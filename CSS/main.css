@@ -1,0 +1,240 @@
+.nav-link {
+  color: #1BA098;
+}
+
+.nav-link:hover {
+  color: #DEB992;
+}
+
+.nav-link.active {
+  color: #DEB992;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.float-md-start {
+  color: #DEB992;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h1, h2, h3 {
+  margin: 0 0 35px 0;
+  color: #DEB992;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h5 {
+  margin: 0 0 35px 0;
+  color: #1BA098;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: large;
+}
+
+section {
+  text-align: left;
+}
+
+section p {
+  font-size: medium;
+}
+
+h4 {
+  margin: 0 0 35px 0;
+  color: #1BA098;
+  text-transform: uppercase;
+  font-size: x-large;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+p {
+  margin: 0 0 25px;
+  font-size: 18px;
+  line-height: 1.6em;
+}
+
+.lead {
+  color: #1BA098;
+}
+
+.quote {
+  font-family: "Tangerine", serif;
+  font-size: 64px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+.btn-secondary {
+  background-color: #1BA098;
+}
+
+.btn-secondary:hover {
+  background-color: #DEB992;
+}
+
+.btn-secondary:visited {
+  background-color: #1BA098;
+}
+
+hr {
+  background-color: #DEB992;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: #1BA098;
+  float: left;
+  width: 25%;
+  border: 1 solid #DEB992;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #DEB992;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+}
+
+.card {
+  background-color: #051622;
+}
+
+.card-title {
+  color: #DEB992;
+}
+
+.modal-content {
+  background-color: #051622;
+  text-align: left;
+}
+
+.modal-content h3 {
+  text-align: center;
+}
+
+.modal-title {
+  color: #DEB992;
+  font-weight: bold;
+  text-align: center;
+}
+
+.modal-content img {
+  justify-content: center;
+}
+
+.pf {
+  float: right;
+  max-width: 30%;
+  max-height: 40%;
+  margin: 1rem;
+  margin-top: 0.5rem;
+}
+
+.aboutme {
+  text-align: justify;
+}
+
+.section-title {
+  text-shadow: 1px 0px #b7410e;
+}
+
+.subtitle {
+  color: #DEB992;
+}
+
+/*css film strip about me */
+.film {
+  position: relative;
+  top: 1.5rem;
+  left: 50%;
+  transform: translate(-50%);
+  width: 600px;
+  height: 200px;
+  background: #111111;
+  overflow: hidden;
+}
+
+.film::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 0px;
+  width: 16px;
+  height: 16px;
+  background: #5e5e5e;
+  box-shadow: 28px 0px 0px #5e5e5e, 56px 0px 0px #5e5e5e, 84px 0px 0px #5e5e5e, 112px 0px 0px #5e5e5e, 140px 0px 0px #5e5e5e, 168px 0px 0px #5e5e5e, 196px 0px 0px #5e5e5e, 224px 0px 0px #5e5e5e, 252px 0px 0px #5e5e5e, 280px 0px 0px #5e5e5e, 308px 0px 0px #5e5e5e, 336px 0px 0px #5e5e5e, 364px 0px 0px #5e5e5e, 392px 0px 0px #5e5e5e, 420px 0px 0px #5e5e5e, 448px 0px 0px #5e5e5e, 476px 0px 0px #5e5e5e, 504px 0px 0px #5e5e5e, 532px 0px 0px #5e5e5e, 560px 0px 0px #5e5e5e, 588px 0px 0px #5e5e5e, 616px 0px 0px #5e5e5e;
+}
+
+.film::after {
+  content: "";
+  position: absolute;
+  bottom: 8px;
+  left: 0px;
+  width: 16px;
+  height: 16px;
+  background: #5e5e5e;
+  box-shadow: 28px 0px 0px #5e5e5e, 56px 0px 0px #5e5e5e, 84px 0px 0px #5e5e5e, 112px 0px 0px #5e5e5e, 140px 0px 0px #5e5e5e, 168px 0px 0px #5e5e5e, 196px 0px 0px #5e5e5e, 224px 0px 0px #5e5e5e, 252px 0px 0px #5e5e5e, 280px 0px 0px #5e5e5e, 308px 0px 0px #5e5e5e, 336px 0px 0px #5e5e5e, 364px 0px 0px #5e5e5e, 392px 0px 0px #5e5e5e, 420px 0px 0px #5e5e5e, 448px 0px 0px #5e5e5e, 476px 0px 0px #5e5e5e, 504px 0px 0px #5e5e5e, 532px 0px 0px #5e5e5e, 560px 0px 0px #5e5e5e, 588px 0px 0px #5e5e5e, 616px 0px 0px #5e5e5e;
+}
+
+.film div {
+  width: 180px;
+  height: 60%;
+  top: 50%;
+  transform: translate(0%, -50%);
+  margin-left: 6px;
+  box-shadow: inset 0px 0px 20px 0px #b7410e;
+  display: inline-block;
+  margin-top: 100px;
+}
+
+.film div:nth-child(1) {
+  background: url(/IMG/trevi.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.film div:nth-child(2) {
+  background: url(/IMG/Ruby.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.film div:nth-child(3) {
+  background: url(/IMG/introFestival.jfif) center center no-repeat;
+  background-size: cover;
+}
+
+/*
+  * contactform
+  */
+#contact {
+  background: #333333;
+  color: #f4f4f4;
+  padding-bottom: 80px;
+}
+
+.list-group-item {
+  background-color: #333333;
+}/*# sourceMappingURL=main.css.map */
