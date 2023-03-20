@@ -60,6 +60,11 @@ p {
   line-height: 1.6em;
 }
 
+blockquote {
+  max-width: 70%;
+  text-align: right;
+}
+
 .lead {
   color: #1BA098;
 }
