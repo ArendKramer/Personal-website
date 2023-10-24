@@ -19,7 +19,7 @@
 body {
   width: 100%;
   height: 100%;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 h1, h2, h3 {
@@ -70,7 +70,7 @@ blockquote {
 }
 
 .quote {
-  font-family: "Tangerine", serif;
+  font-family: 'Tangerine', serif;
   font-size: 64px;
   text-shadow: 4px 4px 4px #aaa;
 }
@@ -105,6 +105,7 @@ hr {
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -148,7 +149,9 @@ hr {
 }
 
 .modal-content img {
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .pf {
@@ -176,7 +179,8 @@ hr {
   position: relative;
   top: 1.5rem;
   left: 50%;
-  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
   width: 600px;
   height: 200px;
   background: #111111;
@@ -191,7 +195,8 @@ hr {
   width: 16px;
   height: 16px;
   background: #5e5e5e;
-  box-shadow: 28px 0px 0px #5e5e5e, 56px 0px 0px #5e5e5e, 84px 0px 0px #5e5e5e, 112px 0px 0px #5e5e5e, 140px 0px 0px #5e5e5e, 168px 0px 0px #5e5e5e, 196px 0px 0px #5e5e5e, 224px 0px 0px #5e5e5e, 252px 0px 0px #5e5e5e, 280px 0px 0px #5e5e5e, 308px 0px 0px #5e5e5e, 336px 0px 0px #5e5e5e, 364px 0px 0px #5e5e5e, 392px 0px 0px #5e5e5e, 420px 0px 0px #5e5e5e, 448px 0px 0px #5e5e5e, 476px 0px 0px #5e5e5e, 504px 0px 0px #5e5e5e, 532px 0px 0px #5e5e5e, 560px 0px 0px #5e5e5e, 588px 0px 0px #5e5e5e, 616px 0px 0px #5e5e5e;
+  -webkit-box-shadow: 28px 0px 0px #5e5e5e, 56px 0px 0px #5e5e5e, 84px 0px 0px #5e5e5e, 112px 0px 0px #5e5e5e, 140px 0px 0px #5e5e5e, 168px 0px 0px #5e5e5e, 196px 0px 0px #5e5e5e, 224px 0px 0px #5e5e5e, 252px 0px 0px #5e5e5e, 280px 0px 0px #5e5e5e, 308px 0px 0px #5e5e5e, 336px 0px 0px #5e5e5e, 364px 0px 0px #5e5e5e, 392px 0px 0px #5e5e5e, 420px 0px 0px #5e5e5e, 448px 0px 0px #5e5e5e, 476px 0px 0px #5e5e5e, 504px 0px 0px #5e5e5e, 532px 0px 0px #5e5e5e, 560px 0px 0px #5e5e5e, 588px 0px 0px #5e5e5e, 616px 0px 0px #5e5e5e;
+          box-shadow: 28px 0px 0px #5e5e5e, 56px 0px 0px #5e5e5e, 84px 0px 0px #5e5e5e, 112px 0px 0px #5e5e5e, 140px 0px 0px #5e5e5e, 168px 0px 0px #5e5e5e, 196px 0px 0px #5e5e5e, 224px 0px 0px #5e5e5e, 252px 0px 0px #5e5e5e, 280px 0px 0px #5e5e5e, 308px 0px 0px #5e5e5e, 336px 0px 0px #5e5e5e, 364px 0px 0px #5e5e5e, 392px 0px 0px #5e5e5e, 420px 0px 0px #5e5e5e, 448px 0px 0px #5e5e5e, 476px 0px 0px #5e5e5e, 504px 0px 0px #5e5e5e, 532px 0px 0px #5e5e5e, 560px 0px 0px #5e5e5e, 588px 0px 0px #5e5e5e, 616px 0px 0px #5e5e5e;
 }
 
 .film::after {
@@ -202,16 +207,19 @@ hr {
   width: 16px;
   height: 16px;
   background: #5e5e5e;
-  box-shadow: 28px 0px 0px #5e5e5e, 56px 0px 0px #5e5e5e, 84px 0px 0px #5e5e5e, 112px 0px 0px #5e5e5e, 140px 0px 0px #5e5e5e, 168px 0px 0px #5e5e5e, 196px 0px 0px #5e5e5e, 224px 0px 0px #5e5e5e, 252px 0px 0px #5e5e5e, 280px 0px 0px #5e5e5e, 308px 0px 0px #5e5e5e, 336px 0px 0px #5e5e5e, 364px 0px 0px #5e5e5e, 392px 0px 0px #5e5e5e, 420px 0px 0px #5e5e5e, 448px 0px 0px #5e5e5e, 476px 0px 0px #5e5e5e, 504px 0px 0px #5e5e5e, 532px 0px 0px #5e5e5e, 560px 0px 0px #5e5e5e, 588px 0px 0px #5e5e5e, 616px 0px 0px #5e5e5e;
+  -webkit-box-shadow: 28px 0px 0px #5e5e5e, 56px 0px 0px #5e5e5e, 84px 0px 0px #5e5e5e, 112px 0px 0px #5e5e5e, 140px 0px 0px #5e5e5e, 168px 0px 0px #5e5e5e, 196px 0px 0px #5e5e5e, 224px 0px 0px #5e5e5e, 252px 0px 0px #5e5e5e, 280px 0px 0px #5e5e5e, 308px 0px 0px #5e5e5e, 336px 0px 0px #5e5e5e, 364px 0px 0px #5e5e5e, 392px 0px 0px #5e5e5e, 420px 0px 0px #5e5e5e, 448px 0px 0px #5e5e5e, 476px 0px 0px #5e5e5e, 504px 0px 0px #5e5e5e, 532px 0px 0px #5e5e5e, 560px 0px 0px #5e5e5e, 588px 0px 0px #5e5e5e, 616px 0px 0px #5e5e5e;
+          box-shadow: 28px 0px 0px #5e5e5e, 56px 0px 0px #5e5e5e, 84px 0px 0px #5e5e5e, 112px 0px 0px #5e5e5e, 140px 0px 0px #5e5e5e, 168px 0px 0px #5e5e5e, 196px 0px 0px #5e5e5e, 224px 0px 0px #5e5e5e, 252px 0px 0px #5e5e5e, 280px 0px 0px #5e5e5e, 308px 0px 0px #5e5e5e, 336px 0px 0px #5e5e5e, 364px 0px 0px #5e5e5e, 392px 0px 0px #5e5e5e, 420px 0px 0px #5e5e5e, 448px 0px 0px #5e5e5e, 476px 0px 0px #5e5e5e, 504px 0px 0px #5e5e5e, 532px 0px 0px #5e5e5e, 560px 0px 0px #5e5e5e, 588px 0px 0px #5e5e5e, 616px 0px 0px #5e5e5e;
 }
 
 .film div {
   width: 180px;
   height: 60%;
   top: 50%;
-  transform: translate(0%, -50%);
+  -webkit-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
   margin-left: 6px;
-  box-shadow: inset 0px 0px 20px 0px #b7410e;
+  -webkit-box-shadow: inset 0px 0px 20px 0px #b7410e;
+          box-shadow: inset 0px 0px 20px 0px #b7410e;
   display: inline-block;
   margin-top: 100px;
 }
@@ -242,4 +250,5 @@ hr {
 
 .list-group-item {
   background-color: #333333;
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=main.css.map */
